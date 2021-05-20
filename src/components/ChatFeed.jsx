@@ -9,6 +9,7 @@ const ChatFeed = (props) => {
     const { chats, activeChat, userName, messages } = props;
 
     const chat = chats && chats[activeChat];
+
     // console.log(props);
 
     // const renderReadReceipts = (message, isMessageSent) => { // check if message has been read
