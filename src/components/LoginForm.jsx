@@ -4,8 +4,8 @@ import { PROJECT_ID } from '../App';
 import '../styles/LoginForm.css'
 const LoginForm = () => {
 
-    const [userName, setUserName] = useState('');
-    const [password, setPassword] = useState('');
+    const [userName, setUserName] = useState('test');
+    const [password, setPassword] = useState('test');
     const [error, setError] = useState('');
 
     const authObject = { 'Project-ID': PROJECT_ID, 'User-Name': userName , 'User-Secret': 
